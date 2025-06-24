@@ -12,12 +12,12 @@
 エイリアスを設定
 
 ```bash
-echo -e "alias commit='~/projects/my-scripts/scripts/commit.sh'" >> ~/.bashrc
-echo -e "alias switch='~/projects/my-scripts/scripts/switch.sh'" >> ~/.bashrc
+echo -e "alias commit='~/projects/my-scripts/scripts/commit.sh'" >> ~/.zshrc
+echo -e "alias switch='~/projects/my-scripts/scripts/switch.sh'" >> ~/.zshrc
 ```
 
 設定を反映
 
 ```bash
-source ~/.bashrc
+source ~/.zshrc
 ```
